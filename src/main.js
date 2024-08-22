@@ -23,6 +23,11 @@ const vuetify = createVuetify({
 import { Chart, registerables } from "chart.js";
 
 Chart.register(...registerables);
+// import Vue from "vue";
+// import vSelect from "vue-select";
+// import "vue-select/dist/vue-select.css";
+
+// Vue.component("v-select", vSelect);
 
 createApp(App)
   .use(pinia)
